@@ -125,26 +125,6 @@ class ChatInterface(Frame):
         self.entry_field.config(font="Verdana 10")
         self.font = "Verdana 10"
 
-    def font_change_times(self):
-        self.text_box.config(font="Times")
-        self.entry_field.config(font="Times")
-        self.font = "Times"
-
-    def font_change_system(self):
-        self.text_box.config(font="System")
-        self.entry_field.config(font="System")
-        self.font = "System"
-
-    def font_change_helvetica(self):
-        self.text_box.config(font="helvetica 10")
-        self.entry_field.config(font="helvetica 10")
-        self.font = "helvetica 10"
-
-    def font_change_fixedsys(self):
-        self.text_box.config(font="fixedsys")
-        self.entry_field.config(font="fixedsys")
-        self.font = "fixedsys"
-
 
 root = Tk()
 
